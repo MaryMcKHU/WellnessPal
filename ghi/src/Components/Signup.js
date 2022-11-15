@@ -12,7 +12,7 @@ export default function Signup() {
         <div>
         <Button 
             variant='outline-light' 
-            style={{fontSize:18, fontWeight:'bold'}}
+            style={{fontSize:18, fontWeight:'bold', border:'none', borderRadius:30}}
             onClick={handleShow}
         >
             Sign Up
@@ -25,7 +25,7 @@ export default function Signup() {
             dialogClassName='modal-md'
             style={{textAlign:'center'}}
         >
-            <Modal.Header closeButton>Sign Up
+            <Modal.Header closeButton>Sign up
             </Modal.Header>
             <Modal.Body style={{width:500}}>
             <form>

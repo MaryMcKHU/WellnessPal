@@ -12,10 +12,10 @@ export default function Login() {
         <div>
         <Button 
             variant='outline-light' 
-            style={{fontSize:18, fontWeight:'bold'}}
+            style={{fontSize:18, fontWeight:'bold', border:'none', borderRadius:30}}
             onClick={handleShow}
         >
-            Login
+            Log In
         </Button>
         </div>
         <div>
