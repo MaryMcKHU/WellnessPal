@@ -1,3 +1,4 @@
+import { ModalUnstyled } from '@mui/base';
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
@@ -30,6 +31,7 @@ export default function Signup() {
             </Modal.Header>
             <Modal.Body style={{width:500}}>
             <form>
+              <h4>Welcome to Wellness Pal</h4>
               <div className="form-outline mb-2">
                 <input
                 //   onChange={handleUserName}

@@ -70,13 +70,19 @@ export default function Login() {
                 </div>
                 <div className="text-center text-lg mt-4 pt-2">
                     <button
-                    type="button"
-                    className="btn btn-primary"
-                    style={{fontWeight:'bolder'}}
-                    // onClick={() => login(username, password)}
-                    >
-                    Login
+                        type="button"
+                        className="btn btn-primary"
+                        style={{fontWeight:'bolder'}}
+                        // onClick={() => login(username, password)}
+                        >
+                        Login
                     </button>
+                    <p className="small fw-bold mt-2 pt-1 mb-0">
+                        Not yet a member?{" "}
+                        <a href="/user/signup/" className="link-primary">
+                            Sign Up
+                        </a>
+                </p>
                 </div>
                 </form>
                   </Modal.Body>
