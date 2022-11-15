@@ -22,10 +22,10 @@ function Nav() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <NavLink className="navbar-brand font-link2" to="/" style={{fontWeight:'bolder', color:'white'}}>wellness pal .
-          </NavLink>
-          <ul className="nav navbar-nav" style={{justifyContent:'space-between'}}>
+        <NavLink className="navbar-brand font-link2" to="/" style={{fontWeight:'bolder', color:'white'}}>wellness pal .
+        </NavLink>
+        <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul className="nav navbar-nav">
             <li style={{margin:10}}><Login /></li>
             <li style={{margin:10}}><Signup /></li>
 
