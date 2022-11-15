@@ -23,8 +23,9 @@ function MotivationalQuote() {
 
 
     return (
-        <div>
-            "{data}"
+        <div style={{fontStyle:'italic', fontWeight:'bolder', color:'white', marginTop:550, textAlign:'center', fontSize:18}}>
+            {/* "{data}" */}
+            Testing
         </div>
     )
 }

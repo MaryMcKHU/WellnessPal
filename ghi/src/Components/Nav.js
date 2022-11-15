@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import Login from './Login'
+import Button from 'react-bootstrap/Button';
 import "../index.css";
 
 function Nav() {
@@ -20,8 +22,12 @@ function Nav() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item dropdown">
+          <NavLink className="navbar-brand font-link2" to="/" style={{fontWeight:'bolder', color:'white'}}>wellness pal .
+          </NavLink>
+          <ul className="pull-right">
+            <Login />
+
+            {/* <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
                 id="navbarDropdown"
@@ -56,7 +62,7 @@ function Nav() {
               >
                 Exercises
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

@@ -12,15 +12,18 @@ code {
     monospace;
 }
 
-.main-footer {
-  color: rgb(255, 255, 255);
-  background-color: rgb(205, 197, 197);
-  position: relative;
+.footer {
+  background-color: rgb(210, 210, 210);
+  position: absolute;
   bottom: 0;
   width: 100%;
-  height: 50;
+  height: 70;
 }
 
 .list-unstyled {
   color: black;
+}
+
+.wrapper {
+  padding: 20px;
 }
