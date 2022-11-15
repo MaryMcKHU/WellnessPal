@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
-import Login from './Login'
+import Login from './Login';
+import Signup from './Signup';
 import Button from 'react-bootstrap/Button';
 import "../index.css";
 
@@ -24,8 +25,9 @@ function Nav() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <NavLink className="navbar-brand font-link2" to="/" style={{fontWeight:'bolder', color:'white'}}>wellness pal .
           </NavLink>
-          <ul className="pull-right">
-            <Login />
+          <ul className="nav navbar-nav" style={{justifyContent:'space-between'}}>
+            <li style={{margin:10}}><Login /></li>
+            <li style={{margin:10}}><Signup /></li>
 
             {/* <li className="nav-item dropdown">
               <a
