@@ -32,7 +32,7 @@ function App() {
           <FitnessCenterIcon style={{color:'orange'}}/> Exercises
         </Button>
       </Container>
-      <MotivationalQuote/>
+      <MotivationalQuote />
       <Routes>
         {/* <Route path="/" element={<MainPage />} /> */}     
         
