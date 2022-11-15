@@ -22,7 +22,7 @@ function Nav() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <NavLink className="navbar-brand font-link2" to="/" style={{fontWeight:'bolder', color:'white'}}>wellness pal .
+        <NavLink className="navbar-brand font-link" to="/" style={{fontWeight:'bolder', color:'white'}}>wellness pal .
         </NavLink>
         <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul className="nav navbar-nav">

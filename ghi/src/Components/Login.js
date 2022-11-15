@@ -11,6 +11,7 @@ export default function Login() {
     <div className="login">
         <div>
         <Button
+            className="font-link"
             variant='outline-light' 
             style={{fontSize:18, fontWeight:'bold', border:'none', borderRadius:30}}
             onClick={handleShow}

@@ -10,7 +10,8 @@ export default function Signup() {
   return(
     <div className="signup">
         <div>
-        <Button 
+        <Button
+            className='font-link'
             variant='outline-light' 
             style={{fontSize:18, fontWeight:'bold', border:'none', borderRadius:30}}
             onClick={handleShow}
