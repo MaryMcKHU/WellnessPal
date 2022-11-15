@@ -12,7 +12,7 @@ export default function Login() {
         <div>
         <Button 
             variant='outline-light' 
-            style={{fontSize:18, fontWeight:'bold', paddingBottom:10 }}
+            style={{fontSize:18, fontWeight:'bold'}}
             onClick={handleShow}
         >
             Login
@@ -25,12 +25,12 @@ export default function Login() {
             dialogClassName='modal-md'
             style={{textAlign:'center'}}
         >
-            <Modal.Header closeButton>Log in or sign up
+            <Modal.Header closeButton>Log in
             </Modal.Header>
             <Modal.Body style={{width:500}}>
             <form>
                 <div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
-                    <h2 style={{ fontWeight: "bold", fontSize:30, textAlign:'center' }}>
+                    <h2 style={{ fontWeight: "bold", fontSize:25, textAlign:'center' }}>
                     Welcome to Wellness Pal
                     </h2>
                 </div>
@@ -79,11 +79,6 @@ export default function Login() {
                 </div>
                 </form>
                   </Modal.Body>
-                  <Modal.Footer>
-                    <Button variant="secondary" onClick={handleClose}>
-                      Close
-                    </Button>
-                  </Modal.Footer> 
                 </Modal>
               </div>
             </div>
