@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import SelfImprovementIcon from '@mui/icons-material/SelfImprovement';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import SpaIcon from '@mui/icons-material/Spa';
-import MusicNoteIcon from '@mui/icons-material/MusicNote';
+import MenuBookIcon from '@mui/icons-material/MenuBook';
+import LocalDiningIcon from '@mui/icons-material/LocalDining';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import MotivationalQuote from './MotivationalQuote';
@@ -15,9 +16,12 @@ function MainPage() {
       const handleExerciseClick = event => {
         console.log('Exercise Link Clicked');
       }
-      const handleMusicClick = event => {
-        console.log('Muscle Link Clicked');
+      const handleNutritionClick = event => {
+        console.log('Nutrition Link Clicked');
       }
+      const handleJournalClick = event => {
+        console.log('Journal Link Clicked');
+      };
     return (
         <Container className='font-link' style={{marginTop:100}}>
         <h2 style={{color:'white', fontSize:28, paddingBottom:20, fontWeight:'bold'}}>
@@ -32,9 +36,9 @@ function MainPage() {
             <SelfImprovementIcon style={{color:'purple'}}/> Meditations
           </Button>
         </Link><br />
-        <Link onClick={handleMusicClick} to="/journal/">
+        <Link onClick={handleJournalClick} to="/journal/">
           <Button variant="light" style={{marginBottom:10, fontSize:18, width:400, textAlign:'left', borderRadius:30, padding:12}}>
-            <MusicNoteIcon style={{color:'blue'}}/> Journaling
+            <MenuBookIcon style={{color:'green'}}/> Journaling
           </Button>
         </Link><br />
         <Link onClick={handleExerciseClick} to="/exercise/">
@@ -42,9 +46,9 @@ function MainPage() {
             <FitnessCenterIcon style={{color:'orange'}}/> Exercises
           </Button>
         </Link><br/>
-        <Link onClick={handleMusicClick} to="/music/">
+        <Link onClick={handleNutritionClick} to="/nutrition/">
           <Button variant="light" style={{marginBottom:10, fontSize:18, width:400, textAlign:'left', borderRadius:30, padding:12}}>
-            <MusicNoteIcon style={{color:'blue'}}/> Calming Music
+            <LocalDiningIcon style={{color:'blue'}}/> Nutrition
           </Button>
         </Link>
         <MotivationalQuote />

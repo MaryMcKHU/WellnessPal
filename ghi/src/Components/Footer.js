@@ -11,7 +11,7 @@ import "../index.css";
 function Footer() {
   return (
     <div className="footer">
-      <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-3 border-top">
+      <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-3">
         <ul className="nav col-md-4 justify-content-start">
           <li className="nav-item">
             <NavLink to="/" className="nav-link px-2 text-muted">
@@ -21,7 +21,7 @@ function Footer() {
           <li className="nav-link px-2 text-muted">Connect: </li>
           <li className="nav-item">
             <a
-              href="mailto:carcar@gmail.com"
+              href="mailto:wellnesspal@gmail.com"
               className="nav-link px-2 text-muted"
             >
               <EmailOutlinedIcon size="1.5em" />

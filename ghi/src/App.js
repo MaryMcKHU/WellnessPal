@@ -1,14 +1,8 @@
 import React, { useState } from 'react';
-import { Routes, Route, BrowserRouter, Link } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Nav from './Components/Nav.js';
 import Footer from './Components/Footer.js';
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
 import Login from './Components/Login';
-import SelfImprovementIcon from '@mui/icons-material/SelfImprovement';
-import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
-import SpaIcon from '@mui/icons-material/Spa';
-import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import Music from './Pages/Music';
 import Meditation from './Pages/Meditation';
 import Exercise from './Pages/Exercise';
