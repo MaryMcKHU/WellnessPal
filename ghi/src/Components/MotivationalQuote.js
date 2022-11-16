@@ -23,7 +23,7 @@ function MotivationalQuote() {
 
 
     return (
-        <div className='font-link' style={{fontStyle:'italic', fontWeight:'bolder', color:'white', textAlign:'center', fontSize:18, marginTop:300}}>
+        <div className='font-link' style={{fontStyle:'italic', fontWeight:'bolder', color:'white', textAlign:'center', fontSize:18, marginTop:150}}>
             "{data}"
         </div>
     )
