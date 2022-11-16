@@ -10,6 +10,7 @@ import Preferences from './Components/Preferences';
 import Login from './Components/Login';
 import SelfImprovementIcon from '@mui/icons-material/SelfImprovement';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
+import SpaIcon from '@mui/icons-material/Spa';
 import "./index.css";
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
         </Button><br />
         <Button variant="light" style={{marginBottom:10, fontSize:18, width:400, textAlign:'left', borderRadius:30, padding:12}}>
           <FitnessCenterIcon style={{color:'orange'}}/> Exercises
+        </Button><br/>
+        <Button variant="light" style={{marginBottom:10, fontSize:18, width:400, textAlign:'left', borderRadius:30, padding:12}}>
+          <SpaIcon style={{color:'blue'}}/> Calming Music
         </Button>
       </Container>
       <MotivationalQuote />
