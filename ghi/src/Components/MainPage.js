@@ -6,6 +6,7 @@ import SpaIcon from '@mui/icons-material/Spa';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
+import MotivationalQuote from './MotivationalQuote';
 
 function MainPage() {
     const handleMeditationClick = event => {
@@ -31,6 +32,11 @@ function MainPage() {
             <SelfImprovementIcon style={{color:'purple'}}/> Meditations
           </Button>
         </Link><br />
+        <Link onClick={handleMusicClick} to="/journal/">
+          <Button variant="light" style={{marginBottom:10, fontSize:18, width:400, textAlign:'left', borderRadius:30, padding:12}}>
+            <MusicNoteIcon style={{color:'blue'}}/> Journaling
+          </Button>
+        </Link><br />
         <Link onClick={handleExerciseClick} to="/exercise/">
           <Button variant="light" style={{marginBottom:10, fontSize:18, width:400, textAlign:'left', borderRadius:30, padding:12}}>
             <FitnessCenterIcon style={{color:'orange'}}/> Exercises
@@ -41,6 +47,7 @@ function MainPage() {
             <MusicNoteIcon style={{color:'blue'}}/> Calming Music
           </Button>
         </Link>
+        <MotivationalQuote />
         </Container>      
     )
 }
