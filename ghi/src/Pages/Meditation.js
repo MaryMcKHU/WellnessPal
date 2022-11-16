@@ -16,13 +16,14 @@ function Meditation() {
 
     return (
         <div>
-            {data.map((meditation) => {
+            {console.log({data})}
+            {/* {data.map((meditation) => {
                 return (
                     <ul key={meditation.id}>
                         <li>{meditation.name}</li>
                     </ul>
                 )
-            })}
+            })} */}
         </div>
     );
 }
