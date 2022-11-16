@@ -28,43 +28,6 @@ function Nav() {
           <ul className="nav navbar-nav">
             <li style={{margin:10}}><Login /></li>
             <li style={{margin:10}}><Signup /></li>
-
-            {/* <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                href="/meditations/"
-              >
-                Meditations
-              </a>
-            </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                href="/gratitude/"
-              >
-                Gratitude
-              </a>
-            </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                href="/exercises/"
-              >
-                Exercises
-              </a>
-            </li> */}
           </ul>
         </div>
       </div>
